@@ -1,5 +1,19 @@
 {
 	"ImportPath": "lupus",
 	"GoVersion": "go1.1.2",
-	"Deps": []
+	"Deps": [
+		{
+			"ImportPath": "github.com/codegangsta/cli",
+			"Comment": "1.2.0-26-gf7ebb76",
+			"Rev": "f7ebb761e83e21225d1d8954fde853bf8edd46c4"
+		},
+		{
+			"ImportPath": "github.com/jingweno/gotask/tasking",
+			"Rev": "104f8017a5972e8175597652dcf5a730d686b6aa"
+		},
+		{
+			"ImportPath": "github.com/kballard/go-shellquote",
+			"Rev": "e5c918b80c17694cbc49aab32a759f9a40067f5d"
+		}
+	]
 }
